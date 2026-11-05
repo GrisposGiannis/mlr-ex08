@@ -1,6 +1,6 @@
 # Exercise 8 --- Implementation Review
 
--   **Live Page:** https://grisposgiannis.github.io/mlr-ex08/
+-   Live Page: https://grisposgiannis.github.io/mlr-ex08/
 -   **GitHub Repository:** mlr-ex08
 
 ------------------------------------------------------------------------
