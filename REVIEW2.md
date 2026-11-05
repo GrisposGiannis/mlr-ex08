@@ -17,7 +17,9 @@ First, I used the phone's camera and pointed it at a cherry leaf. The
 application processed the image directly in the browser and classified
 it as **cherry**, with a confidence of **99.85%**. 
 ```
-### Uploading a Photo
+<p align="center">
+  <img src="1000013792.jpg" alt="Mobile Live Camera Test" width="360"/>
+</p>
 
 I also checked the upload option. For this test, I selected a photo of a
 maple leaf. The prediction appeared straight away, and the model
