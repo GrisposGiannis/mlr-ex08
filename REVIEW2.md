@@ -15,15 +15,7 @@ live camera and uploading a photo.
 
 First, I used the phone's camera and pointed it at a cherry leaf. The
 application processed the image directly in the browser and classified
-it as **cherry**, with a confidence of **99.85%**. The camera was
-running at around 20 fps during the test.
-
-```{=html}
-<p align="center">
-```
-`<img src="1000013792.jpg" alt="Mobile Live Camera Test" width="360"/>`{=html}
-```{=html}
-</p>
+it as **cherry**, with a confidence of **99.85%**. 
 ```
 ### Uploading a Photo
 
