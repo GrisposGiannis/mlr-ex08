@@ -4,6 +4,6 @@ I also ran the self-test button on the page to compare with check_expected.json.
 
 Looking at index.html, the model runs locally using ONNX Runtime Web and WebAssembly, so no images leave the device. Incoming frames are cropped to a central square, resized to 96x96, and normalized using the mean and std values from model_info.json. The model outputs logits, which are converted to probabilities using softmax. The page also includes camera controls, an upload button, live probability bars, an FPS counter, a self-test feature, and a built-in QR code generator.
 
-![Mobile Live Camera Test](1000013792.jpg)
+![Mobile Live Camera Test](3f06a7a4-21e8-416c-bda4-2ada1f693032.jpeg)
 
-![Mobile Upload Test](1000013793.jpg)
+![Mobile Upload Test](a9d6142b-4001-4953-9589-35250685c7ea.jpeg)
