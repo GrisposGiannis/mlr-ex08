@@ -1,6 +1,4 @@
-## Task 4
-
-# Improving Leaf Classification for Mobile Camera
+## Task 4  Improving Leaf Classification for Mobile Camera
 
 Ioannis Grispos  
 MLR — Exercise 08  
