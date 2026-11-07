@@ -4,7 +4,6 @@ Ioannis Grispos
 MLR — Exercise 08  
 November 2026  
 
----
 
 ### Goal and Dataset Setup
 
@@ -16,7 +15,6 @@ To test the models properly, we used three different evaluation sets. The first 
 
 Because our validation set is very small with only 32 images, a single wrong prediction changes the accuracy by roughly 3.1%. Differences smaller than 8 to 9% can happen purely by chance. For this reason, every experiment was run across 3 random seeds and we reported the average values.
 
----
 
 ### Experiment Results
 
@@ -40,7 +38,6 @@ Combining the pretrained model with geometric augmentations gave 72.9% on clean 
 
 Finally, Model E, which included the 700 historical images during training, reached 76.0% on our own clean photos and 91.1% on the historical test set.
 
----
 
 ### What Worked and What Failed
 
@@ -54,7 +51,6 @@ In contrast, color jitter failed and hurt performance. In leaf identification, c
 
 Dropout made no real difference, and freezing the backbone prevented the convolutional filters from adapting to mobile camera noise and blur.
 
----
 
 ### Final Model Selection
 
@@ -66,7 +62,6 @@ This demonstrates that having more real photos from different cameras and lighti
 
 The model was exported as `leaf_model.onnx` for use in the browser application, and its predictions were verified to match the PyTorch model outputs.
 
----
 
 ### Conclusion
 
